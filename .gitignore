@@ -51,7 +51,6 @@ venv/
 __pycache__/
 
 # Salidas de build generales
-dist/
 build/
 out/
 
