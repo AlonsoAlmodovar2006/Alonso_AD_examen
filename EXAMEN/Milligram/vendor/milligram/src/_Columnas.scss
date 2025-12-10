@@ -1,3 +1,10 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    width: 100%;
+}
+
 .col-auto {
     flex: 0 0 auto;
     width: auto;
@@ -63,7 +70,7 @@
     width: 100%;
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 1280px) {
     .col-lg-auto {
         flex: 0 0 auto;
         width: auto;
@@ -130,7 +137,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width:1280px) {
     .col-md-auto {
         flex: 0 0 auto;
         width: auto;
